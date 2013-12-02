@@ -4,8 +4,12 @@
   "description": "Simple Charts using the canvas element",
   "keywords": ["charts"],
   "homepage": "https://github.com/kingcody/Node-Chart.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kingcody/Node-Chart.js"
+  },
   "author": "nnnick",
-  "main": ["Chart.js"],
+  "main": "./Chart.js",
   "dependencies": {
   }
 }
