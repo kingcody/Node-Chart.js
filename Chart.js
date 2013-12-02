@@ -1259,10 +1259,10 @@ exports.Chart = function(context){
   //Declare global functions to be called within this namespace here.
   
   
-  // shim layer with setTimeout fallback
+  // since node.js, use process.nextTick
   var requestAnimFrame = (function(){
     return function(callback) {
-        setTimeout(callback, 1000 / 60);
+        process.nextTick(callback);
       };
   })();
 
