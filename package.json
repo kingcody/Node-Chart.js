@@ -1,0 +1,11 @@
+{
+  "name": "node-chart.js",
+  "version": "0.2.0",
+  "description": "Simple Charts using the canvas element",
+  "keywords": ["charts"],
+  "homepage": "https://github.com/kingcody/Node-Chart.js",
+  "author": "nnnick",
+  "main": ["Chart.js"],
+  "dependencies": {
+  }
+}
