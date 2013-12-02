@@ -1,1 +1,1 @@
-module.exports = require('./Chart.js').Chart;
+module.exports = require('./Chart').Chart;
